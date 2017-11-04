@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>FilmStrip</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/styles.css">
+
+        <script src="./libs/angular/angular.min.js"></script>
+        <script src="./libs/angular-route/angular-route.min.js"></script>
+        <script src="./libs/angular-touch/angular-touch.min.js"></script>
+    </head>
+
+    <body ng-app="FilmStripModule">
+        <div id="main-container" class="center" ng-init="init()">
+            <div class="card">
+                <img src="icons/movie_icon.png" alt="movie_icon" style="width:100%">
+                <div class="container">
+                    <h2><b>John Doe</b></h2> 
+                    <button class="button" ng-click="GetFilmDetail()">Show Details</button> 
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
